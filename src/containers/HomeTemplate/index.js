@@ -1,13 +1,14 @@
 import React from 'react'
 
 import { Route } from "react-router-dom";
-import Header from '../../components/Header';
-import Logo from '../../components/Logo';
+
+
+import Navbar from '../../components/Navbar';
 
 function LayoutHome(props) {
     return (
       <div>
-        <Header/>
+        <Navbar/>
         {props.children}
       </div>
     );

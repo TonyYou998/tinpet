@@ -1,8 +1,21 @@
-.navbar__wrapper{
-    .navbar__container{
-        list-style: none;
-        width: 44%;
-        margin: 0 auto;
-        font-weight: 700;
+.navbar-nav{
+
+   
+    li{
+        
+            font-weight: 500 !important;
+             font-size: 20px;
+        
+        
     }
+}
+.navbar{
+   
+    .logo{
+        font-family: Knewave;
+    }
+}
+.navbar__fix{
+    z-index: 1000;
+    position: fixed !important;
 }
