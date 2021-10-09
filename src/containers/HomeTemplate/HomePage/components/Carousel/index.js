@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "../Banner";
 
 export default function Carousel() {
   return (
@@ -6,7 +7,7 @@ export default function Carousel() {
       <video  autoPlay muted loop className=" video  ">
         <source src="./video/tinpet.mp4" />
       </video>
-      
+      <Banner/>   
     </section>
   );
 }
