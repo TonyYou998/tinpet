@@ -3,6 +3,12 @@
 
 @import "./components/navbar";
 @import "./components/carousel";
-body{
+@import "./components//arrr";
+@import "./components/footer";
+*{
     font-family: Jost;
+  
+}
+.homepage{
+    background-color: #eee7de;
 }

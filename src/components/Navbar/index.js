@@ -1,6 +1,14 @@
 import React from "react";
-
+import $ from 'jquery';
 export default function Navbar() {
+  $(window).scroll(()=>{
+    if($(window).scrollTop()>100){
+        $(".navbar").addClass("navbar__change");
+    }
+    else{
+        $(".navbar__change").removeClass("navbar__change");
+    }
+})
   return (
     
     <nav className="navbar w-100 navbar__fix navbar-expand-lg navbar-light ">

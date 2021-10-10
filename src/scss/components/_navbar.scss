@@ -10,7 +10,7 @@
     }
 }
 .navbar{
-   
+   color: black;
     .logo{
         font-family: Knewave;
     }
@@ -18,4 +18,8 @@
 .navbar__fix{
     z-index: 1000;
     position: fixed !important;
+}
+.navbar__change{
+    transition: .5s;
+    background-color: white ;
 }
