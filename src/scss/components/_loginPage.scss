@@ -1,0 +1,22 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+        .flex-container{
+            display: flex;
+            justify-content: center;
+        }  
+    }
+  
+    .Login .flex-container form {
+        margin: 10% auto ;
+        max-width: 400px;
+    }
+    .Login button{
+        margin: 10px auto;
+    }
+    .Login img{
+        width: 50%;
+        height: 50%;
+        padding: 0 10px;
+    }
+  }

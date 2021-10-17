@@ -38,6 +38,9 @@ export default function Navbar() {
         <button className="   ml-2 px-4 login__btn btn  btn-outline-primary">
           SIGN IN
         </button>
+        <button className="   ml-2 px-4 login__btn btn  btn-outline-primary">
+          SIGN UP
+        </button>
       </div>
     </nav>
   );
