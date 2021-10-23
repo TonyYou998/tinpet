@@ -1,0 +1,28 @@
+.card__wrapper{
+    padding-top:100px ;
+    .card{
+        border: none;
+    }
+    .card-img-top{
+        width:286px ;
+        height: 300px ;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+    .card-body{
+        border: solid 1px black;
+        background-color: #8c8eff;
+        border-radius:8px ;
+        .adopt__btn{
+            border-radius:40px ;
+            background-color: white;
+            color: #0d2bc3;
+            font-weight: 700;
+        }
+    }
+}
+.card__info{
+    width:800px;
+    border: 2px solid #b2b2b2;
+    border-radius: 30px;
+}

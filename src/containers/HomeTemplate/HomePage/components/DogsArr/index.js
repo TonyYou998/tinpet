@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 export default function DogsArr() {
     const settings = {
@@ -8,7 +9,7 @@ export default function DogsArr() {
         slidesToShow: 5,
         slidesToScroll: 1
       };
-    return (
+    return ( 
         
        
         <div className="Dog__Wrapper py-4 px-5"> 
@@ -19,31 +20,47 @@ export default function DogsArr() {
                     
                     <div className="arr__item">
                         <img src="./img/dog1.jpg"/>
-                        <p className=" btn-primary text-center detail__btn">shiba inu</p>
+                        <Link to="/detail/id"> 
+                            <p className=" btn-primary text-center detail__btn">shiba inu</p>
+                        </Link>
+                        
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog2.jpg"/>
-                        <p className="btn-primary text-center detail__btn">alska</p>
+                        <Link  to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
+                      
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog3.jpg"/>
-                        <p className="btn-primary text-center detail__btn">corgy</p>    
+                        <Link  to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">corgy</p>  
+                        </Link>  
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog4.jpg"/>
-                        <p className="btn-primary text-center detail__btn">chihuahua</p>
+                        <Link  to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">chiahuahua</p>  
+                        </Link>
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog2.jpg"/>
-                        <p className="btn-primary text-center detail__btn">alska</p>
+                        <Link  to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog6.jpg"/>
-                        <p className="btn-primary text-center detail__btn">poddle</p>
+                        <Link  to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">podle</p>  
+                        </Link>
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog7.jpg"/>
-                        <p className="btn-primary text-center detail__btn">pug</p>
+                        <Link  to="/detail/id"> 
+                            <p className="btn-primary text-center detail__btn">pub</p>  
+                        </Link>
                     </div>
                 </Slider>
             </div>
@@ -55,31 +72,48 @@ export default function DogsArr() {
                     
                     <div className="arr__item">
                         <img src="./img/dog1.jpg"/>
-                        <p className="text-center btn-primary detail__btn">shiba inu</p>
+                        
+                        <Link to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
+                        
+                       
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog2.jpg"/>
-                        <p className="text-center btn-primary detail__btn">alska</p>
+                        <Link to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog3.jpg"/>
-                        <p className="text-center btn-primary detail__btn">corgy</p>    
+                        <Link to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>   
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog4.jpg"/>
-                        <p className="text-center btn-primary detail__btn">chihuahua</p>
+                        <Link to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog2.jpg"/>
-                        <p className="text-center btn-primary detail__btn">alska</p>
+                        <Link to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog6.jpg"/>
-                        <p className="text-center btn-primary detail__btn">poddle</p>
+                        <Link to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
                     </div>
                     <div className="arr__item">
                         <img src="./img/dog7.jpg"/>
-                        <p className="text-center btn-primary detail__btn">pug</p>
+                        <Link to="/detail/id">
+                            <p className="btn-primary text-center detail__btn">alska</p>  
+                        </Link>
                     </div>
                 </Slider>
             </div>

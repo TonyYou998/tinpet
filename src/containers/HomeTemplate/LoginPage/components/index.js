@@ -33,7 +33,7 @@ export default function LoginForm() {
                         </div>
                         <Link id="optional2" to="/"> Forgot Password?</Link>
                     </div>
-                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Sign in"/>
+                    <button className="btn btn-primary w-100 mt-2">Sign In</button>
                 </div>
                 
             </form>

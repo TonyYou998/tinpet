@@ -1,5 +1,7 @@
 
- 
+ .MainForm{
+    background-color:#F3E9E8 ;
+ }
 .MainForm form{
         display: flex;
         justify-content: center;
@@ -17,7 +19,7 @@
 .MainForm form .form-inner{
     // position: relative;
     // display: block;
-    background-color:#F3E9E8 ;
+    
     padding: 200px 20%;
     z-index: 2;
     h1{
