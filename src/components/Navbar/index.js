@@ -1,5 +1,6 @@
 import React from "react";
 import $ from 'jquery';
+import { Link } from "react-router-dom";
 export default function Navbar() {
   $(window).scroll(()=>{
     if($(window).scrollTop()>100){
@@ -35,9 +36,9 @@ export default function Navbar() {
         </ul>
 
         <i style={{ fontSize: "30px" }} class="mr-3 fa fa-shopping-cart "></i>
-        <button className="   ml-2 px-4 login__btn btn  btn-outline-primary">
+        <Link to="/sign-in" className="   ml-2 px-4 login__btn btn  btn-outline-primary">
           SIGN IN
-        </button>
+        </Link>
       </div>
     </nav>
   );
