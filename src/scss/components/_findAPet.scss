@@ -1,0 +1,17 @@
+.findapet__wrapper{
+    padding-top: 100px;
+    background-color: #eee7de;
+}
+.item__wrapper{
+    // border: 2px solid black;
+    // border-bottom: 0;
+    .item__img{
+        height: 280px;
+    }
+    .item__content{
+        h6{
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+    }
+}

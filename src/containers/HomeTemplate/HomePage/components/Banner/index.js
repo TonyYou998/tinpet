@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Banner() {
     return (
@@ -8,8 +9,8 @@ export default function Banner() {
                     <p className="text-center pt-1">Scratch a dog and you will find a permanent job</p>
                 </div>
                 <div className="banner__btn d-flex pt-4 justify-content-around ">
-                    <div className="btn btn-primary  banner__btn py-2 ">Find A Pet</div>
-                    <div className="btn btn-primary  py-2 banner__btn">Learn More</div>
+                    <Link to="/pet-all" className="btn btn-primary  banner__btn py-2 ">Find A Pet</Link>
+                    <div className="btn btn-primary  py-2 banner__btn">Give your pet</div>
                 </div>
             
         </div>
