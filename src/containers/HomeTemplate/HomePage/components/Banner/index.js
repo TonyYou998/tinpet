@@ -10,7 +10,7 @@ export default function Banner() {
                 </div>
                 <div className="banner__btn d-flex pt-4 justify-content-around ">
                     <Link to="/pet-all" className="btn btn-primary  banner__btn py-2 ">Find A Pet</Link>
-                    <div className="btn btn-primary  py-2 banner__btn">Give your pet</div>
+                    <Link to="/give" className="btn btn-primary  py-2 banner__btn">Give your pet</Link>
                 </div>
             
         </div>

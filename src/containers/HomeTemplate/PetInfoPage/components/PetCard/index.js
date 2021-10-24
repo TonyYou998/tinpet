@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function PetCard() {
     return (
@@ -13,7 +13,11 @@ export default function PetCard() {
                 <button  className="w-100 adopt__btn  btn btn-primary">
                     Adopt
                 </button>
+              
+
             
+
+     
             
           </div>
         </div>
@@ -24,11 +28,17 @@ export default function PetCard() {
             <h5 className="py-2" >Weight:<span style={{fontWeight:"normal"}}>3Kg</span></h5>
             <h5 className="py-2" >Sex:<span style={{fontWeight:"normal"}}>Male</span></h5>
             <h5 className="py-2" >Color:<span style={{fontWeight:"normal"}}>yellow</span></h5>
-            <h5 className="py-2" >OWner:<span style={{fontWeight:"normal"}}>Tony You</span></h5>
+            <h5 className="py-2" >Owner:<span style={{fontWeight:"normal"}}>Tony You</span></h5>
             <h5 className="py-2" >Location:<span style={{fontWeight:"normal"}}>Arizona</span></h5>
             <hr className="w-100"/>
             
         </div>
+       
+<div>
+  
+  
+</div>
+
       </div>
     );
 }

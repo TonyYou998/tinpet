@@ -1,13 +1,17 @@
 .navbar-nav{
-
-   
     li{
         
-            font-weight: 500 !important;
-             font-size: 20px;
-        
-        
+        font-weight: 500 !important;
+         font-size: 20px;
+        cursor: pointer;
+        &:hover{
+            font-style: italic;
+            transition: all .5s;
+            font-size: 25px;
+        }
     }
+   
+   
 }
 .navbar{
    color: black;

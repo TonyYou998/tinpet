@@ -13,24 +13,35 @@ export default function Navbar() {
   return (
     
     <nav className="navbar w-100 px-4 navbar__fix navbar-expand-lg navbar-light ">
+      <Link to="/" style={{color:"black",textDecoration:"none"}}>
       <h1 className="logo" >
         TINPETS
       </h1>
+      </Link>
+      
 
       <div className=" navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav m-auto">
         <li className="nav-item mx-4">
             About us
           </li>
+          <Link to="/pet-all" style={{color:"black",textDecoration:"none"}}>
+              <li className="nav-item mx-4">
+                Find a pet
+              </li>
+          </Link>
+          
+          <Link to="/breed" style={{textDecoration:"none",color:"black"}}>
+            <li className="nav-item mx-4">
+              Breeds
+            </li>
+          </Link>
+          <Link to="/give" style={{textDecoration:"none",color:"black"}} >
           <li className="nav-item mx-4">
-            Find a pet
+            Give your pet
           </li>
-          <li className="nav-item mx-4">
-            Breeds
-          </li>
-          <li className="nav-item mx-4">
-            Market
-          </li>
+          </Link>
+         
                    
          
         </ul>
